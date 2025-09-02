@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const ProductCard = ({ prod }) => {
     return (
         <Link to={`/product/${prod.id}`}>
-            <div className=" w-full hover:shadow-2xl max-w-[350px] border  border-gray-200 rounded-lg flex flex-col h-full ">
+            <div className=" w-full hover:shadow-2xl max-w-[550px] border  border-gray-200 rounded-lg flex flex-col h-full ">
                 {/* image */}
-                <div className="h-[350px]">
+                <div className="h-[450px]">
                     <img
                         src={prod.img}
                         alt={prod.name}
@@ -24,11 +24,7 @@ const ProductCard = ({ prod }) => {
                         </span>
                     </div>
                 </div>
-                <div className="flex items-center justify-center">
-                    <button className="font-bold text-xl bg-pink-600 text-white rounded-lg py-2 px-4 mb-4">
-                        Buy Now
-                    </button>
-                </div>
+                <div className="flex items-center justify-center"></div>
             </div>
         </Link>
     );

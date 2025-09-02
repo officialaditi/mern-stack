@@ -1,0 +1,31 @@
+{
+    "name": "mern-stack",
+    "version": "1.0.0",
+    "description": "creating mern stack project to learn ",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node backend/server.js",
+        "server": "nodemon backend/server.js",
+        "client": "npm run dev --prefix frontend",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "keywords": [
+        "node.js",
+        "react",
+        "express",
+        "mongodb"
+    ],
+    "author": "aditi",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^17.2.1",
+        "express": "^5.1.0",
+        "mongoose": "^8.18.0"
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.1",
+        "nodemon": "^3.1.10"
+    }
+}

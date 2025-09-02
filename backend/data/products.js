@@ -1,6 +1,6 @@
 const products = [
   {
-    id: 1,
+    id: "1",
     name: "Romantic Red Roses",
     description: "A classic bouquet of fresh red roses, perfect for love and celebrations.",
     price: 1299,
@@ -10,7 +10,7 @@ const products = [
     img: "/img-1.jpg"
   },
   {
-    id: 2,
+    id: "2",
     name: "Sunshine Sunflowers",
     description: "Bright sunflowers to bring joy and positivity to any occasion.",
     price: 999,
@@ -20,7 +20,7 @@ const products = [
     img: "/img-2.jpg"
   },
   {
-    id: 3,
+    id: "3",
     name: "Elegant White Lilies",
     description: "A graceful bouquet of white lilies symbolizing purity and peace.",
     price: 1499,
@@ -30,7 +30,7 @@ const products = [
     img: "/img-3.jpg"
   },
   {
-    id: 4,
+    id: "4",
     name: "Mixed Seasonal Blooms",
     description: "A vibrant mix of seasonal flowers in a cheerful bouquet.",
     price: 1199,
@@ -40,7 +40,7 @@ const products = [
     img: "/img-4.jpg"
   },
   {
-    id: 5,
+    id: "5",
     name: "Pink Carnation Charm",
     description: "Delicate pink carnations to brighten up someone’s day.",
     price: 899,
@@ -50,7 +50,7 @@ const products = [
     img: "/img-5.jpg"
   },
   {
-    id: 6,
+    id: "6",
     name: "Orchid Elegance",
     description: "Exotic orchids wrapped beautifully for a luxurious touch.",
     price: 1799,
@@ -60,7 +60,7 @@ const products = [
     img: "/img-6.jpg"
   },
   {
-    id: 7,
+    id: "7",
     name: "Lavender Love",
     description: "Soothing lavender bouquet with calming fragrance.",
     price: 1099,
@@ -70,7 +70,7 @@ const products = [
     img: "/img-7.jpg"
   },
   {
-    id: 8,
+    id: "8",
     name: "Festive Gerbera Mix",
     description: "Colorful gerberas arranged in a lively festive bouquet.",
     price: 999,
@@ -82,3 +82,5 @@ const products = [
 ];
 
 export default products;
+
+// module.exports = products;
